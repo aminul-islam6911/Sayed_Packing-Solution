@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:outlineSpotShadowColor="@color/shadow"
+    app:cardCornerRadius="5dp"
+    android:elevation="5dp"
+    android:gravity="center"
+    android:id="@+id/post_container_inc"
+    app:cardBackgroundColor="@color/single_row_card_bg"
+    android:layout_marginBottom="15dp"
+    app:cardUseCompatPadding="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/post_container_inc_L"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:minHeight="75dp"
+            android:gravity="center_vertical"
+
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:id="@+id/body_container">
+
+
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/card_i_btn_cancel"
+                android:drawableTint="@color/error"
+                android:drawableLeft="@drawable/ic_cancel"
+                android:paddingLeft="-4dp"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="0dp"
+                android:layout_marginRight="10dp"
+                android:shadowColor="@color/single_row_card_bg"
+                android:backgroundTint="@color/single_row_card_bg"
+
+                />
+
+            <LinearLayout
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingStart="10dp"
+                android:id="@+id/left_container"
+                android:minWidth="220dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:minHeight="30dp"
+                    android:textStyle="bold"
+                    android:maxWidth="280dp"
+                    android:maxLines="1"
+                    android:minWidth="280dp"
+                    android:id="@+id/card_i_post_title"
+                    android:text="Customer name: Sayedul Islam Sayed"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:minWidth="250dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="25dp"
+                    android:minHeight="25dp"
+                    android:id="@+id/card_i_post_date"
+                    android:textStyle="italic"
+                    android:text="19 Jul 2022 7:11 PM"
+                    android:textSize="18sp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+
+                android:orientation="vertical">
+
+
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/card_i_btn_done"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:layout_marginEnd="3dp"
+                    android:background="@drawable/ic_done"
+                    android:shadowRadius="12"
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:background="@color/single_row_bottom_bg"
+
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

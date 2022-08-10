@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Packing Solution</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    //Login Page
+    <string name="login_heading_title">Welcome to\nPacking Solution</string>
+    <string name="login_username_error">Username does not matched!</string>
+    <string name="login_password_error">Password does not matched!</string>
+    <string name="remember_text">Remeber Me</string>
+
+
+    //MENU
+    <string name="menu_home">HOME</string>
+    <string name="menu_about">About</string>
+
+    //Search Bar
+    <string name="search_hint_text">Search....</string>
+
+
+    //HOME PAGE
+    <string name="home_heading">Packing Solution\n Admin Dashboard</string>
+
+    //Add Page
+    <string name="add_heading_text">Add New</string>
+    <string name="add_description_hint_text">Description....</string>
+    <string name="add_button_text">ADD</string>
+    <string name="add_toast_msg">Successfully Added</string>
+    <string name="no_img_select_toast">You have not selected any image!</string>
+
+
+    //Incomplete Page
+    <string name="inc_heading_text">Incompletes</string>
+    <string name="inc_description_hint_text">Description....</string>
+    <string name="inc_button_text">ADD</string>
+
+
+    //Complete Page
+    <string name="comp_heading_text">Completes</string>
+    <string name="comp_description_hint_text">Description....</string>
+    <string name="comp_button_text">ADD</string>
+
+
+    //View All Page
+    <string name="view_heading_text">View All</string>
+    <string name="view_description_hint_text">Description....</string>
+    <string name="view_button_text">ADD</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

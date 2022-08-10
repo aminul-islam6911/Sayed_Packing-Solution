@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "805286612111",
+    "project_id": "packing-solution",
+    "storage_bucket": "packing-solution.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805286612111:android:57440134ec93aadf6d74fa",
+        "android_client_info": {
+          "package_name": "com.sayed.packingsolution"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805286612111-m918snsnlva7vugvmofpn0686r67tq64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOeDH6KiZq5jW-gO5q42o1CHpK3w3CqCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805286612111-m918snsnlva7vugvmofpn0686r67tq64.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

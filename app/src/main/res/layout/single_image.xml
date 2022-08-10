@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="1dp">
+
+    <Button
+        android:id="@+id/btn_img_remove"
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        android:paddingRight="1dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#00FFFFFF"
+        android:shadowColor="#00FFFFFF"
+        android:drawableRight="@drawable/ic_img_remove"
+        tools:layout_editor_absoluteY="1dp" />
+    <ImageView
+        android:id="@+id/image"
+        tools:ignore="MissingConstraints"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintDimensionRatio="1"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

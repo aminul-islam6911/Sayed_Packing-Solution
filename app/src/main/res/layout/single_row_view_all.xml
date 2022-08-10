@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="85dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="0dp"
+    android:elevation="5dp"
+    android:gravity="center"
+    app:cardBackgroundColor="@color/single_row_card_bg"
+    android:layout_marginBottom="15dp"
+    app:cardUseCompatPadding="true">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingStart="8dp"
+        android:paddingEnd="0dp"
+        android:id="@+id/body_container">
+
+        <TextView
+            android:layout_width="350dp"
+            android:minWidth="350dp"
+            android:layout_height="25dp"
+            android:minHeight="25dp"
+            android:id="@+id/post_title"
+            android:textColor="@color/single_row_title_text_color"
+            android:text="Customer name: Shahin shah xyz view all"
+            android:textSize="18sp"/>
+
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btn_cancel"
+            android:drawableTint="@color/error"
+            android:drawableLeft="@drawable/ic_delete"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:shadowColor="@color/single_row_card_bg"
+            android:backgroundTint="@color/single_row_card_bg"
+
+            />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:padding="2dp"
+        android:background="@color/single_row_completed_status_bg"
+        android:textColor="@color/single_row_status_text_color"
+        android:text="Completed"/>
+
+
+
+
+</LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>
+

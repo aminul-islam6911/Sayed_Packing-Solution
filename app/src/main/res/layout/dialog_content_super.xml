@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/dialog_container_Super" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/login_heading"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/logo"
+            android:layout_marginBottom="2dp"
+            android:gravity="center"
+            android:text="Super Admin Password Required!*"
+            android:textStyle="bold"
+            android:textColor="@color/error"
+            android:textSize="18sp" />
+
+
+        <EditText
+            android:id="@+id/dlg_txt_super_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter password..."
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@color/login_fields_text"
+            android:textColorHint="@color/login_fields_hint_text"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/dlg_btn_enter_super"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/login_button_bg"
+            android:padding="10dp"
+            android:text="ENTER"
+            android:textColor="@color/login_button_text"
+            android:textSize="14sp" />
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

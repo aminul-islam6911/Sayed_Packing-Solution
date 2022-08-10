@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChangeCredintialActivity">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:layout_above="@+id/bottomContainer"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/header_text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/heading_text_bg"
+            android:gravity="center_horizontal"
+            android:paddingTop="5dp"
+            android:text="Change Credential"
+            android:textAlignment="center"
+            android:textColor="@color/heading_text_with_bg"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+
+
+
+        <EditText
+            android:id="@+id/txt_username_cred"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter new username..."
+            android:padding="15dp"
+            android:textColor="@color/login_fields_text"
+            android:textColorHint="@color/login_fields_hint_text"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txt_password_cred"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter new password..."
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textColor="@color/login_fields_text"
+            android:textColorHint="@color/login_fields_hint_text"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_update_cred"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/login_button_bg"
+            android:padding="10dp"
+            android:text="UPDATE"
+            android:textColor="@color/login_button_text"
+            android:textSize="14sp" />
+
+
+
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomContainer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/primary"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/navigation_menu">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+
+
+</RelativeLayout>
